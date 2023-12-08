@@ -82,7 +82,8 @@ img{
 
 .rating-circle{
     display: grid;
-    grid-template-columns:10px 10px 10px;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: auto;
     /* width: clamp(45px, 12vw, 52px);
     height: clamp(45px, 12vw, 52px); */
     padding-top: 4px;
@@ -92,6 +93,4 @@ img{
     border-radius: 50%;
     background-color: hsl(var(--clr-medium-gray));
 }
-
-.
 
