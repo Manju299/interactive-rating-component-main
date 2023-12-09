@@ -52,31 +52,31 @@
                 </label>
 
                 <label for="rating-3">
-                  <input type="radio" name="one" id="rating-3" value="1" />
+                  <input type="radio" name="one" id="rating-3" value="3" />
                   <span class="rating-circle">3</span>
                 </label>
 
                 <label for="rating-4">
-                  <input type="radio" name="one" id="rating-4" value="1" />
+                  <input type="radio" name="one" id="rating-4" value="4" />
                   <span class="rating-circle">4</span>
                 </label>
 
                 <label for="rating-5">
-                  <input type="radio" name="one" id="rating-5" value="1" />
+                  <input type="radio" name="one" id="rating-5" value="5" />
                   <span class="rating-circle">5</span>
                 </label>
               </div>
 
-              <button class="Submit">SUBMIT</button>
+              <button id="sub" class="Submit" type="submit">SUBMIT</button>
             </form>
           </section>
 
           <!-- Rating state end -->
 
           <!-- Thank you state start -->
-          <section class="rating-complete">
+          <section class="rating-complete" hidden>
             You selected
-            <!-- Add rating here -->
+            <span class="selected-number"></span>
             out of 5 Thank you! We appreciate you taking the time to give a
             rating. If you ever need more support, don’t hesitate to get in
             touch!
@@ -89,9 +89,9 @@
 
     <div class="attribution">
       Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Your Name Here</a>.
     </div>
+    <script src="./index.js"></script>
   </body>
 </html>
+  

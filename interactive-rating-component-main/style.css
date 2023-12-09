@@ -18,9 +18,9 @@ body{
     background-color: rgb(42, 42, 42);
 }
 
-.rating-complete{
+/* .rating-complete{
     display: none;
-}
+} */
 
 .container{
       position: absolute;
@@ -131,6 +131,9 @@ input[type=radio]{
 .rating input:checked ~ .rating-circle {
     background:hsl(var(--clr-medium-gray));
     color: white; 
+}
+.rating-complete{
+    color: hsl(var(--clr-white));
 }
 
 
